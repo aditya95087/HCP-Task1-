@@ -47,8 +47,7 @@ The LangGraph agent acts as an intelligent assistant for the life science field 
 4. Set up the Environment Variables:
    Open `backend/.env` and add your Groq API Key:
    ```env
-   GROQ_API_KEY=your_groq_api_key_here
-   DATABASE_URL=sqlite:///./hcp_crm.db
+GEMINI_API_KEY=AIzaSyBF25a6-LtJD2ACxQK-_as-2kno8BbNGE8   DATABASE_URL=sqlite:///./hcp_crm.db
    ```
 5. Run the FastAPI server:
    ```bash
